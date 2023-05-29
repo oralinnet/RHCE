@@ -13,5 +13,5 @@ RHCE with ansible
 -   start / stop service 
 -   firewalld    
 ### Ansible Documentation 
--   [go](https://docs.ansible.com/){:target="_blank"}.
--   [Ansible Document link](https://eddymens.com)
+-   [Ansible Document link](https://docs.ansible.com/)
+-   <a href="http://docs.ansible.com" target="_blank">Ansible Document</a>
