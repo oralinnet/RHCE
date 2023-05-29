@@ -14,4 +14,4 @@ RHCE with ansible
 -   firewalld    
 ### Ansible Documentation 
 -   [go](https://docs.ansible.com/){:target="_blank"}.
--   [Ansible Document link {_ext}](https://eddymens.com)
+-   [Ansible Document link](https://eddymens.com)
