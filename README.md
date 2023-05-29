@@ -1,7 +1,7 @@
 # RHCE 8
 RHCE with ansible 
 
-## pre-requisits    
+## Pre-requisits    
 -   ssh server configuration 
 -   password and keybase authentication 
     -   sshkey-gen
@@ -12,3 +12,5 @@ RHCE with ansible
 -   enable / disable service 
 -   start / stop service 
 -   firewalld    
+### Ansible Documentation 
+-   https://docs.ansible.com/
