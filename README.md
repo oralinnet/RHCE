@@ -21,14 +21,15 @@ yum install ansible
 ```
 ## RHEL Subscribe
 
--   Create RHN id / RedHat account in http://www.redhat.com/                                                            
+-   Create RHN id / RedHat account in https://www.redhat.com/                                                            
     -   Register System with redhat
     -   Attach pool for ansible
     -   Enable repos for ansible
     -    dnf install ansible -y
 
-## subscription-manager register
+## Subscribe your system
 ```sh
+subscription-manager register
 subscription-manager list --available
 subscription-manager attach --pool=<pool id>
 subscription-manager repos --enable ansible-VERSION-for-rhel-8-x86_64-rpms                                                  
