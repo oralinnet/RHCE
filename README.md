@@ -12,4 +12,3 @@ RHCE with ansible
 -   enable / disable service 
 -   start / stop service 
 -   firewalld    
-
