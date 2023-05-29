@@ -16,8 +16,9 @@ RHCE with ansible
 -   [Ansible Document](https://docs.ansible.com/)
 
 ## Ansible Install 
+```sh
 yum install ansible 
-
+```
 ## RHEL Subscribe
 
 -   Create RHN id / RedHat account in http://www.redhat.com/                                                            
