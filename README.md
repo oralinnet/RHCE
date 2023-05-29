@@ -15,3 +15,4 @@ RHCE with ansible
 ### Ansible Documentation 
 -   [Ansible Document link](https://docs.ansible.com/)
 -   <a href="http://docs.ansible.com" target="_blank">Ansible Document</a>
+-   [Opens in new tab](https://docs.ansible.com?to=/placeholder.com)
