@@ -4,7 +4,7 @@
 ```sh
 dnf update -y
 ```
-### install ansible core 
+### Install ansible core 
 
 -   By default ansible core install 
 ```sh

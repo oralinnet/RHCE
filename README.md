@@ -36,3 +36,6 @@ subscription-manager repos --enable ansible-VERSION-for-rhel-8-x86_64-rpms
 subscription-manager repos --enable ansible-2.9-for-rhel-8-x86_64-rpms
 yum install bash-completion
 ```
+## Learning Step 
+
+-   Step 1 [install ansible](https://github.com/oralinnet/RHCE/blob/main/install_ansible/install.md)
