@@ -1,4 +1,4 @@
-# RHCE 8
+# RHCE 8/9
 RHCE with ansible 
 
 ## Pre-requisits    

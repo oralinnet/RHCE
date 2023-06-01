@@ -1,0 +1,4 @@
+-   CFG file is a generic preference file that stores settings and configuration information.
+-   ansible 2.10 or above cfg file is empty
+-   Here I attachd default ansible cfg file
+-   So you can follow this file and know the default setting of ansible 
