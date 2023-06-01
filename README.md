@@ -38,6 +38,6 @@ yum install bash-completion
 ```
 ## Learning Step 
 
--   Step 1 [install ansible](https://github.com/oralinnet/RHCE/blob/main/install_ansible/install.md)
--   Step 2 [sudo Privilege](https://github.com/oralinnet/RHCE/blob/main/sudo_privilege/sudo.md)
--   Step 3 [ssh keybase login](https://github.com/oralinnet/RHCE/blob/main/ssh/ssh_server.md)
+-   Step 1: [install ansible](https://github.com/oralinnet/RHCE/blob/main/install_ansible/install.md)
+-   Step 2: [sudo Privilege](https://github.com/oralinnet/RHCE/blob/main/sudo_privilege/sudo.md)
+-   Step 3: [ssh keybase login](https://github.com/oralinnet/RHCE/blob/main/ssh/ssh_server.md)
