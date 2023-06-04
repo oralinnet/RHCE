@@ -8,7 +8,7 @@ ansible-doc -l
 ansible-doc -l | wc -l          ## module cound
 ansible-doc yum                 ## ansible yum module info
 ```
--   Document and rpm location
+####   Document and rpm location
 
 ```sh
 rpm -q ansible
@@ -20,7 +20,7 @@ rpm -qc ansible
 -   Host file default location /etc/ansible/hosts. its declar on ansible cfg file
 -   You can only add hostname name here, so use dns server or /etc/hosts file
 
--   Add remote host in ansible 
+####   Add remote host in ansible 
 
 ```sh
 vim /etc/ansible/hosts
@@ -45,7 +45,7 @@ serverc
 
 ```
 
--   Qury from host file 
+####   Qury from host file 
 
 ```sh
 ansible all --list-hosts            ## ansible inventory hosts list 
