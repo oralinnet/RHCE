@@ -21,6 +21,7 @@ rpm -qc ansible
 -   You can only add hostname name here, so use dns server or /etc/hosts file
 
 ####   Add remote host in ansible 
+- If you have DNS server or must entry /etc/hosts file server name with ip 
 
 ```sh
 vim /etc/ansible/hosts
@@ -45,6 +46,29 @@ serverc
 
 ```
 
+### Without DNS and host file 
+```sh
+vim /etc/ansible/hosts
+## single server
+
+servera ansible_host=192.168.10.11 ansible_user=root
+serverb ansible_host=192.168.10.12 ansible_user=ansible
+serverc 
+serverd
+
+## server group
+
+[web]
+servera ansible_host=192.168.10.11 ansible_user=root
+serverb ansible_host=192.168.10.13 ansible_user=raju
+
+[api]
+serverc ansible_host=192.168.10.15 ansible_user=root
+
+[db]
+serverc ansible_host=192.168.10.16 ansible_user=oracle
+``
+
 ####   Qury from host file 
 
 ```sh
@@ -54,4 +78,10 @@ ansible 'servera' --list-host       ## check servera host
 ansible server[a-c] --list-hosts    ## check server a-c hosts
 ansible ungrouped --list-hosts      ## check ungroup hosts 
 ansible web --list-hosts            ## check web group hosts 
+```
+### View Configuration 
+```sh
+ansible-config list     ## list all configurations
+ansible-config view     ## show the current configuration file
+ansible-config dump     ## show the current setting 
 ```

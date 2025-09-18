@@ -2,13 +2,15 @@
 
 -   update your OS
 ```sh
-dnf update -y
+dnf install -y epel-release
+dnf update
 ```
 ### Install ansible core 
 
 -   By default ansible core install 
 ```sh
 dnf install ansible-core -y
+dnf install -y ansible
 ansible --version   ## ansible version 
 ansible-doc -l  ## ansible modules
 ansible-doc -l | wc -l  ## ansible modules list 

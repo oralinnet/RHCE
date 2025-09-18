@@ -3,6 +3,7 @@ RHCE with ansible
 
 ## Pre-requisits    
 -   ssh server configuration 
+-   Install python in both server Host and client
 -   password and keybase authentication 
     -   sshkey-gen
     -   ssh-copy-id

@@ -53,7 +53,7 @@ systemctl restart sshd
 
 ```sh
 ssh-keygen     # create ssh private and pub key 
-ssh-copy-id    # copy ssh key to remote machine
+ssh-copy-id root@192.168.10.11    # copy ssh key to remote machine
 ssh -i locatio/keyname root@ip -p xxx  # connect ssh with key if key name is not authorized_keys with deffrient port
 
 ```
